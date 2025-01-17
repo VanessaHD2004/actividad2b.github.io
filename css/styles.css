@@ -20,6 +20,13 @@ header{
     margin-bottom: 1em;
 }
 
+.left{
+    background: #fff ;
+    padding: 3em 1em 3em 1em;
+    flex: 1 1 100px;
+    font-size: smaller;
+}
+
 p{
     margin-bottom: 1em;
     margin-top: 1em;
