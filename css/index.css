@@ -1,0 +1,56 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.logo{
+    max-width: 20%;
+    margin: 5px;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+}
+
+.left{
+    text-align: justify;
+    background: #ffffff ;
+    color: black;
+    padding: 3em 1em 3em 1em;
+    flex: 1 1 100px;
+    font-size: smaller;
+}
+.señor{
+    max-width: 50%;
+    margin: 5px;
+}
+
+main{
+    background: #ac0000;
+    color: #ffffff;
+    padding: 3em 1em 3em 1em;
+    flex: 5 5 100px;
+    text-align: justify;
+
+}
+.maincoca{
+    max-width: 30%;
+    margin: 5px;
+}
+
+footer{
+    background: #ebebeb ;
+    padding: 1em 0 1em 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 5em 0 5em 0;
+    }
+}
